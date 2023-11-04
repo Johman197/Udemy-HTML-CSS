@@ -22,6 +22,8 @@ body {
 }
 
 .main-header {
+  display: flex;
+  justify-content: space-between;
   background-color: #f7f7f7;
   /* padding: 20px;
   padding-left: 40px;
@@ -116,6 +118,8 @@ li:last-child {
 #author {
   font-style: italic;
   font-size: 18px;
+  margin-bottom: 0px;
+  margin-left: 15px;
 }
 
 #copyright {
@@ -244,6 +248,7 @@ h2::before {
   right: -25px;
 }
 
+/*
 h1{
   float: left;
 }
@@ -271,24 +276,11 @@ aside{
 footer{
   clear: both;
 }
-/* Resolving conflicts */
-/* #copyright {
-  color: red;
+*/
+
+/* !!! FLEXBOX !!!*/
+.author-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
-
-.copyright {
-  color: blue;
-}
-
-.text {
-  color: yellow;
-}
-
-footer p {
-  color: green !important;
-} */
-
-/* nav a:link,
-nav p {
-  font-size: 18px;
-} */
